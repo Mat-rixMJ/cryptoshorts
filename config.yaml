@@ -1,0 +1,9 @@
+exchange: binance
+symbols:
+  - BTC/USDT
+  - ETH/USDT
+  - SOL/USDT
+timeframe: 1h
+candle_limit: 500
+data_dir: data
+cache_ttl_minutes: 10

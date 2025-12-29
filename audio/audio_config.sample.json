@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "piper_exe": "C:/piper/piper.exe",
+  "piper_model": "C:/piper/models/en_US.onnx",
+  "voice": "en_US",
+  "speech_speed": 1.0,
+  "normalize_audio": true,
+  "audio_codec": "aac",
+  "audio_bitrate": "128k",
+  "subtitle_mode": "external",
+  "subtitle_language": "en"
+}

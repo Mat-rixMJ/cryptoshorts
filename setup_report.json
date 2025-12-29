@@ -1,0 +1,72 @@
+{
+  "system": {
+    "os": "Windows",
+    "os_release": "11",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "machine": "AMD64"
+  },
+  "components": {
+    "Python": {
+      "python_version": "3.13.7",
+      "venv_active": true,
+      "pip_version": "pip 25.2 from D:\\cryptoshrts\\venv\\Lib\\site-packages\\pip (python 3.13)",
+      "installed_packages": [
+        "ccxt",
+        "pandas",
+        "numpy",
+        "pandas_ta",
+        "matplotlib",
+        "mplfinance",
+        "joblib",
+        "google-auth-oauthlib",
+        "xgboost"
+      ],
+      "failed_packages": [
+        "opencv-python",
+        "scikit-learn",
+        "pyyaml",
+        "python-telegram-bot",
+        "google-api-python-client"
+      ]
+    },
+    "FFmpeg": {
+      "version_line": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "codecs": {
+        "libx264": true,
+        "aac": true,
+        "h264_nvenc": true
+      },
+      "ffprobe": true
+    },
+    "Captions": {
+      "srt_path": "tools\\work\\test_captions.srt",
+      "utf8": true,
+      "ordered_indices": true,
+      "ordered_timestamps": true
+    },
+    "Video": {
+      "video_path": "tools\\work\\test_video\\test_short.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration": 1.0
+    },
+    "Audio/TTS": {
+      "config_present": true,
+      "paths_valid": false,
+      "tts_test": null,
+      "wav_duration": 0.0
+    },
+    "GPU": {
+      "nvidia": {
+        "nvidia_smi": true,
+        "name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+        "driver": "591.59"
+      },
+      "ffmpeg_nvenc": true,
+      "opencv_cuda": false
+    }
+  }
+}

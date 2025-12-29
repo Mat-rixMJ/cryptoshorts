@@ -1,0 +1,13 @@
+{
+  "tts_engine": "piper",
+  "piper_exe": "C:/Tools/piper/piper.exe",
+  "piper_model": "C:/Tools/piper/en_US_lessac_medium.onnx",
+  "speech_speed": 1.0,
+  "add_disclaimer": true,
+  "caption_mode": "deterministic",
+  "max_lines_per_caption": 2,
+  "caption_line_max_chars": 42,
+  "audio_codec": "aac",
+  "audio_bitrate": "128k",
+  "overwrite": true
+}
