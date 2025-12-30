@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "piper_exe": "C:/piper/piper.exe",
+  "piper_exe": "C:/Tools/piper/piper.exe",
   "piper_model": "C:/piper/models/en_US.onnx",
   "voice": "en_US",
   "speech_speed": 1.0,

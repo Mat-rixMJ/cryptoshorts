@@ -26,7 +26,7 @@ def _load_exchange(exchange_id: str):
 def fetch_ohlcv(
     symbol: str,
     timeframe: str,
-    limit: int,
+    limit: int = 8760,
     exchange_id: str = "binance",
     max_retries: int = 3,
     retry_delay: float = 1.5,

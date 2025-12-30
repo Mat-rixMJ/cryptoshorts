@@ -30,7 +30,7 @@ COLORS = {
 
 # Typography
 FONTS = {
-    "title": {"size": 16, "weight": "bold", "family": "monospace"},
+    "title": {"size": 10, "weight": "bold", "family": "monospace"},
     "label": {"size": 12, "weight": "normal", "family": "monospace"},
     "small": {"size": 10, "weight": "normal", "family": "monospace"},
     "annotation": {"size": 11, "weight": "bold", "family": "monospace"},

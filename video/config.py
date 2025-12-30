@@ -40,7 +40,7 @@ class VideoConfig:
     motion_smoothing: bool = False  # minterpolate
 
     # Trimming safety: Shorts must be <= 60s
-    hard_cap_seconds: int = 60
+    hard_cap_seconds: int = 30
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)

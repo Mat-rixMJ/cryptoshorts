@@ -14,7 +14,7 @@ except Exception:
 logger = logging.getLogger(__name__)
 
 
-def fetch_data(symbol: str, timeframe: str, limit: int = 500, exchange: str = "binance") -> pd.DataFrame:
+def fetch_data(symbol: str, timeframe: str, limit: int = 8760, exchange: str = "binance") -> pd.DataFrame:
     """Fetch OHLCV data for the given symbol/timeframe.
 
     - If ccxt is available, fetch live data via src.fetcher

@@ -1,0 +1,13 @@
+1
+00:00:00,000 --> 00:00:03,333
+SOL showed a lower_high_lower_low pattern.
+Price moved up by 5 percent within 1h.
+
+2
+00:00:03,333 --> 00:00:06,667
+This event was identified using historical
+indicators.
+
+3
+00:00:06,667 --> 00:00:10,000
+Educational content using historical data.
